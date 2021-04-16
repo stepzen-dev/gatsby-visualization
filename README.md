@@ -19,7 +19,7 @@ Installing and using the StepZen CLI to spin up the GraphQL endpoint.
 
     ```shell
     # Install StepZen CLI
-    npm install -g stepzen
+    $ npm install -g stepzen
     # In the stepzen folder, run...
     $ stepzen start
     ```
@@ -31,8 +31,8 @@ Installing and using the StepZen CLI to spin up the GraphQL endpoint.
     Navigate into your root folder.
 
     ```shell
-    cd ..
-    npm or yarn install
+    $ cd ..
+    $ npm or yarn install
     ```
 
     ```
@@ -50,8 +50,8 @@ Installing and using the StepZen CLI to spin up the GraphQL endpoint.
     Navigate into your explorer file and open up a new terminal.
 
     ```shell
-    cd ..
-    npm or yarn install
+    $ cd ..
+    $ npm or yarn install
     ```
 
     ```
