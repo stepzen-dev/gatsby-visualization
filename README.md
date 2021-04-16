@@ -62,6 +62,8 @@ Installing and using the StepZen CLI to spin up the GraphQL endpoint.
 
     Open http://localhost:9000 to view the visualization of your data.
 
+    ![GraphQL Voyager](https://raw.githubusercontent.com/APIs-guru/graphql-voyager/master/docs/demo-gif.gif)
+
     Now there are three different development environments running locally on your computer! Every update to the StepZen data in the `./stepzen` root folder will now update in real time for all local environments.
 
     1. The StepZen endpoint at `http://localhost:5000/foo/bar`
