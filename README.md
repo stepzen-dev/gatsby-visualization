@@ -15,7 +15,7 @@
 
 1.  **Create the StepZen Endpoint.**
 
-Installing and using the StepZen CLI to spin up the GraphQL endpoint.
+    Installing and using the StepZen CLI to spin up the GraphQL endpoint.
 
     ```shell
     # Install StepZen CLI
