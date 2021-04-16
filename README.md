@@ -1,48 +1,69 @@
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://www.stepzen.com">
+    <img alt="StepZen" src="https://stepzen.com/images/logo-white.svg" width="160" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby Visualization Starter
 </h1>
+<p align="center">
+  A starter with Gatsby and GraphQL Voyager prebuilt for StepZen endpoint configurations.
+</p>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Create the StepZen Endpoint.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+Installing and using the StepZen CLI to spin up the GraphQL endpoint.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    # Install StepZen CLI
+    npm install -g stepzen
+    # In the stepzen folder, run...
+    $ stepzen start
     ```
 
-3.  **Open the code and start customizing!**
+    Open http://localhost:5000/foo/bar to view the HelloWorld data.
+
+2.  **Creating the Gatsby Site.**
+
+    Navigate into your root folder.
+
+    ```shell
+    cd ..
+    npm or yarn install
+    ```
+
+    ```
+    $ cp .env.example .env
+    // paste your account key and endpoint from StepZen start into .env
+    $ yarn or npm start
+    ```
 
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+3.  **Visualizing the StepZen Endpoint**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    Navigate into your explorer file and open up a new terminal.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    ```shell
+    cd ..
+    npm or yarn install
+    ```
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    ```
+    $ cp .env.example .env
+    // paste your account key and endpoint from StepZen start into .env
+    $ yarn or npm start
+    ```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    Open http://localhost:9000 to view the visualization of your data.
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    Now there are three different development environments running locally on your computer! Every update to the StepZen data in the `./stepzen` root folder will now update in real time for all local environments.
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    1. The StepZen endpoint at `http://localhost:5000/foo/bar`
+    2. The Gatsby Site at `http://localhost:8000`
+    3. The GraphQL Voyager at `http://localhost:9000`
